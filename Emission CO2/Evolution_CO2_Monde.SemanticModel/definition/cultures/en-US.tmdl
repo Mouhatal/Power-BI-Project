@@ -1,0 +1,6819 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "mesure.colored_continent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Colored Continent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "colored continent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "colored landmass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "colored landform": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "colored region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "colored land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "colored island": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "colored mainland": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "colored area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "colored zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Years"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated",
+			            "Weight": 0.87
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "year.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Years",
+			          "ConceptualProperty": "Years"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "year.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Years",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Year": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "year.date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Years",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "year.date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Years",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "year.date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Years",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "year.date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Years",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "year.date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Years",
+			          "VariationSource": "Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Countries"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "country.country_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Countries",
+			          "ConceptualProperty": "Country Code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "code": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "country id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "country key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "nation code": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "location code": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "country.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Countries",
+			          "ConceptualProperty": "Country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "country.flag": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Countries",
+			          "ConceptualProperty": "Flag"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "flag": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ensign": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pennon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emblem": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "streamer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "standard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bunting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "banner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "country.continent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Countries",
+			          "ConceptualProperty": "Continent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "continent": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "landmass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "landform": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "island": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mainland": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "zone": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "country.area_km": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Countries",
+			          "ConceptualProperty": "Area km²"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "area km²": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "locale km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "locality km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "neighbourhood km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "district km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "continent km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "field km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "neighborhood km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "section km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "space km²": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "country.density": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Countries",
+			          "ConceptualProperty": "Density"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "density": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "compactness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "concentration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "solidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "concreteness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "thickness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stupidity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "denseness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "slowness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "year_parameter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Year Parameter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year parameter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "parameter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "yr parameter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "year stricture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "year limitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "year restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "year constraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "year consideration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "year boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "stricture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "limitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "year_parameter.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Year Parameter",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "year_parameter.year_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Year Parameter",
+			          "ConceptualProperty": "Year Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "year assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "year worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "year price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "year cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "year charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "year rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "year importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "year significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "year usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.blank": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Blank"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "blank": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "absolute": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "straight-out": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "uncomprehending": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "empty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.in_year_label": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "in Year label"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "in year label": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "label": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "year label": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "in yr label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "in year sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "year sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "in year tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "in year decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "year tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "year decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "decal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.selected_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Selected Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "selected year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "selected yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.ranking": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Ranking"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ranking": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "status": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "position": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "place": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "level": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Rank": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.growth_rate_per_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Growth rate per year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "growth rate per year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "growth rate per yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "growth degree per year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "growth frequency per year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "growth percentage per year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "growth ratio per year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "growth quotient per year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "growth amount per year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "growth proportion per year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "growth speed per year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "growth level per year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.growth_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Growth rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "growth rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "growth degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "growth frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "growth percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "growth ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "growth quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "growth amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.prev_year_latest_CO2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Prev_Year_latest_CO2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prev year latest CO2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Prev_Year_latest_CO2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "prev yr latest co2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.continent_title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Continent Title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "continent title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "title": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "continent designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "continent name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "continent award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "continent call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "continent heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "continent label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "CO2_parameter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CO2 Parameter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CO2 parameter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "parameter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "co2 stricture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 limitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 constraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 consideration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "stricture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "limitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "CO2_parameter.Co2_parameter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CO2 Parameter",
+			          "ConceptualProperty": "Co2 Parameter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Co2 parameter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Co2 parameter name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "parameter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "co2 stricture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 limitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 constraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 consideration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 boundary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "stricture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "limitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "restriction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "constraint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ],
+			      "NameType": "Name"
+			    },
+			    "CO2_parameter.pop_parameter_field": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CO2 Parameter",
+			          "ConceptualProperty": "Pop Parameter Fields"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "pop parameter field": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "field": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "parameter field": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "pop parameter arena": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "parameter arena": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pop parameter turf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pop parameter ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pop parameter pitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pop parameter park": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "arena": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "parameter turf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "parameter ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "parameter pitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "CO2_parameter.pop_parameter_order": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CO2 Parameter",
+			          "ConceptualProperty": "Pop Parameter Order"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "pop parameter order": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "parameter order": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "pop parameter instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "pop parameter direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "pop parameter edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "parameter instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "parameter direction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "parameter edict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "pop parameter command": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pop parameter directive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pop parameter demand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "pop parameter mandate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "country.place_holder": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Countries",
+			          "ConceptualProperty": "PlaceHolder"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "place holder": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PlaceHolder": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "holder": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "place container": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "place receptacle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "place vessel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "container": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "receptacle": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "vessel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "place pouch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "place box": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "place frame": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "place pocket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "country_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Country2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Country2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "nation 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "location 2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "country_2.country_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Country2",
+			          "ConceptualProperty": "Country Code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "country key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "nation code": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "location code": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "country_2.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Country2",
+			          "ConceptualProperty": "Country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "country_2.value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Country2",
+			          "ConceptualProperty": "Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "use": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "year.placeholder_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Years",
+			          "ConceptualProperty": "Placeholder value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "placeholder value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "placeholder assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "placeholder worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "placeholder price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "placeholder cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "placeholder charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "placeholder rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "placeholder importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "placeholder significance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "placeholder usefulness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "placeholder consequence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "donnée CO2": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.country": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "country"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "country": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.iso_code": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "iso_code"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "iso code": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "iso_code": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "iso id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "iso key": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "year": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "donnée_CO2.population": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "population"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "population": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "populace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.gdp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "gdp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gdp": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.primary_energy_consumption": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "primary_energy_consumption"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "primary energy consumption": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "primary_energy_consumption": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "consumption": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "energy consumption": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "primary energy intake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "primary energy ingestion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "energy intake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "energy ingestion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "primary energy ingesting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "primary energy feasting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "primary energy feeding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "primary energy eating": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "primary energy drinking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "intake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.co_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "co2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "co2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.co_2_including_luc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "co2_including_luc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co 2 including luc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "co2_including_luc": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "luc": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "including luc": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "2 including luc": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.co_2_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "co2_per_capita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co 2 per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "co2_per_capita": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.co_2_per_gdp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "co2_per_gdp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co 2 per gdp": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "co2_per_gdp": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.co_2_per_unit_energy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "co2_per_unit_energy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co 2 per unit energy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "co2_per_unit_energy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "co 2 per module energy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "co 2 per element energy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "co 2 per entity energy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.624
+			          }
+			        },
+			        {
+			          "co 2 per group energy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "co 2 per component energy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "co 2 per constituent energy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "co 2 per item energy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "co 2 per part energy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        },
+			        {
+			          "co 2 per section energy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.605
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.co_2_including_luc_per_capita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "co2_including_luc_per_capita"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co 2 including luc per capita": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "co2_including_luc_per_capita": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.co_2_including_luc_per_gdp": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "co2_including_luc_per_gdp"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co 2 including luc per gdp": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "co2_including_luc_per_gdp": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "luc": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "including luc": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "2 including luc": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.co_2_including_luc_per_unit_energy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "co2_including_luc_per_unit_energy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co 2 including luc per unit energy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "co2_including_luc_per_unit_energy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.coal_co_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "coal_co2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "coal co 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "coal_co2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.oil_co_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "oil_co2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "oil co 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "oil_co2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.gas_co_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "gas_co2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gas co 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gas_co2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.cement_co_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "cement_co2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cement co 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cement_co2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.flaring_co_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "flaring_co2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "flaring co 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "flaring_co2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.land_use_change_co_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "land_use_change_co2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "land use change co 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "land_use_change_co2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "change co 2": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "use change co 2": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.share_global_co_2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "share_global_co2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "share global co 2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "share_global_co2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "donnée_CO2.share_global_co_2_including_luc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Donnée CO2",
+			          "ConceptualProperty": "share_global_co2_including_luc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "share global co 2 including luc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "share_global_co2_including_luc": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mesure": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.total_CO2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Total CO2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total CO2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate co2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall co2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "CO2": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.latest_CO2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Latest CO2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latest CO2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total CO2": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.prev_year_total_CO2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Prev_Year_total_CO2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "prev year total CO2": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Prev_Year_total_CO2": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "prev yr total co2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "prev year aggregate co2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "prev year overall co2": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.continent_for_color": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Continent for color"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "continent for color": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "landmass for color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "landform for color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "region for color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "land for color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "island for color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "mainland for color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "area for color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "zone for color": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.CO2_by_km2": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "CO2 by km2"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "CO2 by km2": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.total_population": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Total Population"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total population": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate population": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall population": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total populace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.latest_population": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Latest Population"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latest population": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "latest populace": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "latest person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.co_2_per_pop": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Co2_per_Pop"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "co 2 per pop": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Co2_per_Pop": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.interpretation_CO2_growth": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "Interpretation_CO2_Growth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "interpretation CO2 growth": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Interpretation_CO2_Growth": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "growth": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "CO2 growth": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "interpretation co2 development": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "interpretation co2 evolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "interpretation co2 progression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "co2 development": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 evolution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "co2 progression": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "interpretation co2 growing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "interpretation co2 progress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "interpretation co2 advance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "development": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "mesure.entity__growth_rate_FormatString": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Mesure",
+			          "ConceptualProperty": "_Growth rate FormatString"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "_growth rate FormatString": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "table_measures.latest_population_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "_Measures",
+			          "ConceptualProperty": "Latest Population Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Population": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "year_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date": {
+			          "Target": {
+			            "Entity": "year.date"
+			          }
+			        },
+			        "year.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date"
+			            },
+			            "Object": {
+			              "Role": "year.date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "dates_have_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_countries"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_donnée_CO2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "year": {
+			          "Target": {
+			            "Entity": "year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_years"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_donnée_CO2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_country_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "country_2": {
+			          "Target": {
+			            "Entity": "country_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "country_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_country_2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country_2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "country_2_have_donnée_CO2"
+			        }
+			      ]
+			    },
+			    "mesure_has_interpretation_CO2_growth": {
+			      "Binding": {
+			        "ConceptualEntity": "Mesure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mesure": {
+			          "Target": {
+			            "Entity": "mesure"
+			          }
+			        },
+			        "mesure.interpretation_CO2_growth": {
+			          "Target": {
+			            "Entity": "mesure.interpretation_CO2_growth"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mesure"
+			            },
+			            "Object": {
+			              "Role": "mesure.interpretation_CO2_growth"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mesures_have_interpretation_CO2_growth"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_co_2_per_pop": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.co_2_per_pop": {
+			          "Target": {
+			            "Entity": "mesure.co_2_per_pop"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.co_2_per_pop"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_co_2_per_pop"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_latest_population": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.latest_population": {
+			          "Target": {
+			            "Entity": "mesure.latest_population"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.latest_population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_latest_population"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_total_population": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.total_population": {
+			          "Target": {
+			            "Entity": "mesure.total_population"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.total_population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_total_population"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_CO2_by_km2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.CO2_by_km2": {
+			          "Target": {
+			            "Entity": "mesure.CO2_by_km2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.CO2_by_km2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_CO2_by_km2"
+			        }
+			      ]
+			    },
+			    "country_has_mesure_CO2_by_km2": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "mesure.CO2_by_km2": {
+			          "Target": {
+			            "Entity": "mesure.CO2_by_km2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "mesure.CO2_by_km2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_CO2_by_km2"
+			        }
+			      ]
+			    },
+			    "country_has_mesure_continent_for_color": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "mesure.continent_for_color": {
+			          "Target": {
+			            "Entity": "mesure.continent_for_color"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "mesure.continent_for_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_continent_for_color"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_prev_year_total_CO2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.prev_year_total_CO2": {
+			          "Target": {
+			            "Entity": "mesure.prev_year_total_CO2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.prev_year_total_CO2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_prev_year_total_CO2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_latest_CO2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.latest_CO2": {
+			          "Target": {
+			            "Entity": "mesure.latest_CO2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.latest_CO2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_latest_CO2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_total_CO2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.total_CO2": {
+			          "Target": {
+			            "Entity": "mesure.total_CO2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.total_CO2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_total_CO2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_share_global_co_2_including_luc": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.share_global_co_2_including_luc": {
+			          "Target": {
+			            "Entity": "donnée_CO2.share_global_co_2_including_luc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.share_global_co_2_including_luc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_share_global_co_2_including_luc"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_share_global_co_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.share_global_co_2": {
+			          "Target": {
+			            "Entity": "donnée_CO2.share_global_co_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.share_global_co_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_share_global_co_2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_land_use_change_co_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.land_use_change_co_2": {
+			          "Target": {
+			            "Entity": "donnée_CO2.land_use_change_co_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.land_use_change_co_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_land_use_change_co_2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_flaring_co_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.flaring_co_2": {
+			          "Target": {
+			            "Entity": "donnée_CO2.flaring_co_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.flaring_co_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_flaring_co_2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_cement_co_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.cement_co_2": {
+			          "Target": {
+			            "Entity": "donnée_CO2.cement_co_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.cement_co_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_cement_co_2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_gas_co_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.gas_co_2": {
+			          "Target": {
+			            "Entity": "donnée_CO2.gas_co_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.gas_co_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_gas_co_2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_oil_co_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.oil_co_2": {
+			          "Target": {
+			            "Entity": "donnée_CO2.oil_co_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.oil_co_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_oil_co_2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_coal_co_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.coal_co_2": {
+			          "Target": {
+			            "Entity": "donnée_CO2.coal_co_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.coal_co_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_coal_co_2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_co_2_including_luc_per_unit_energy": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.co_2_including_luc_per_unit_energy": {
+			          "Target": {
+			            "Entity": "donnée_CO2.co_2_including_luc_per_unit_energy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.co_2_including_luc_per_unit_energy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_co_2_including_luc_per_unit_energy"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_co_2_including_luc_per_gdp": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.co_2_including_luc_per_gdp": {
+			          "Target": {
+			            "Entity": "donnée_CO2.co_2_including_luc_per_gdp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.co_2_including_luc_per_gdp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_co_2_including_luc_per_gdp"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_co_2_including_luc_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.co_2_including_luc_per_capita": {
+			          "Target": {
+			            "Entity": "donnée_CO2.co_2_including_luc_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.co_2_including_luc_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_co_2_including_luc_per_capita"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_co_2_per_unit_energy": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.co_2_per_unit_energy": {
+			          "Target": {
+			            "Entity": "donnée_CO2.co_2_per_unit_energy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.co_2_per_unit_energy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_co_2_per_unit_energy"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_co_2_per_gdp": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.co_2_per_gdp": {
+			          "Target": {
+			            "Entity": "donnée_CO2.co_2_per_gdp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.co_2_per_gdp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_co_2_per_gdp"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_co_2_per_capita": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.co_2_per_capita": {
+			          "Target": {
+			            "Entity": "donnée_CO2.co_2_per_capita"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.co_2_per_capita"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_co_2_per_capita"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_co_2_including_luc": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.co_2_including_luc": {
+			          "Target": {
+			            "Entity": "donnée_CO2.co_2_including_luc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.co_2_including_luc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_co_2_including_luc"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_co_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.co_2": {
+			          "Target": {
+			            "Entity": "donnée_CO2.co_2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.co_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_co_2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_primary_energy_consumption": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.primary_energy_consumption": {
+			          "Target": {
+			            "Entity": "donnée_CO2.primary_energy_consumption"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.primary_energy_consumption"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_primary_energy_consumptions"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_gdp": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.gdp": {
+			          "Target": {
+			            "Entity": "donnée_CO2.gdp"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.gdp"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_gdp"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_population": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.population": {
+			          "Target": {
+			            "Entity": "donnée_CO2.population"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_populations"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Adjectives": [
+			              {
+			                "large": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "big": {
+			                  "State": "Generated"
+			                }
+			              },
+			              {
+			                "populated": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "small": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "donnée_CO2.population"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "population_indicates_how_large_donnée_CO2_are"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_iso_code": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "donnée_CO2.iso_code": {
+			          "Target": {
+			            "Entity": "donnée_CO2.iso_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "donnée_CO2.iso_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_iso_codes"
+			        }
+			      ]
+			    },
+			    "year_has_placeholder_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year": {
+			          "Target": {
+			            "Entity": "year"
+			          }
+			        },
+			        "year.placeholder_value": {
+			          "Target": {
+			            "Entity": "year.placeholder_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "year.placeholder_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_placeholder_values"
+			        }
+			      ]
+			    },
+			    "country_2_has_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Country2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country_2": {
+			          "Target": {
+			            "Entity": "country_2"
+			          }
+			        },
+			        "country_2.value": {
+			          "Target": {
+			            "Entity": "country_2.value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country_2"
+			            },
+			            "Object": {
+			              "Role": "country_2.value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "country_2_have_values"
+			        }
+			      ]
+			    },
+			    "country_2_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Country2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country_2": {
+			          "Target": {
+			            "Entity": "country_2"
+			          }
+			        },
+			        "country_2.country": {
+			          "Target": {
+			            "Entity": "country_2.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country_2"
+			            },
+			            "Object": {
+			              "Role": "country_2.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "country_2_have_countries"
+			        }
+			      ]
+			    },
+			    "country_2_has_country_code": {
+			      "Binding": {
+			        "ConceptualEntity": "Country2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country_2": {
+			          "Target": {
+			            "Entity": "country_2"
+			          }
+			        },
+			        "country_2.country_code": {
+			          "Target": {
+			            "Entity": "country_2.country_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country_2"
+			            },
+			            "Object": {
+			              "Role": "country_2.country_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "country_2_have_country_codes"
+			        }
+			      ]
+			    },
+			    "country_has_place_holder": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "country.place_holder": {
+			          "Target": {
+			            "Entity": "country.place_holder"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "country.place_holder"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_place_holders"
+			        }
+			      ]
+			    },
+			    "CO2_parameter_has_Co2_parameter": {
+			      "Binding": {
+			        "ConceptualEntity": "CO2 Parameter"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "CO2_parameter": {
+			          "Target": {
+			            "Entity": "CO2_parameter"
+			          }
+			        },
+			        "CO2_parameter.Co2_parameter": {
+			          "Target": {
+			            "Entity": "CO2_parameter.Co2_parameter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "CO2_parameter"
+			            },
+			            "Object": {
+			              "Role": "CO2_parameter.Co2_parameter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "CO2_parameters_have_CO2_parameters"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "CO2_parameter"
+			            },
+			            "Name": {
+			              "Role": "CO2_parameter.Co2_parameter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "CO2_parameters_are_names_IDs_of_CO2_parameters"
+			        }
+			      ]
+			    },
+			    "mesure_has_continent_title": {
+			      "Binding": {
+			        "ConceptualEntity": "Mesure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mesure": {
+			          "Target": {
+			            "Entity": "mesure"
+			          }
+			        },
+			        "mesure.continent_title": {
+			          "Target": {
+			            "Entity": "mesure.continent_title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mesure"
+			            },
+			            "Object": {
+			              "Role": "mesure.continent_title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mesures_have_continent_title"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_prev_year_latest_CO2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.prev_year_latest_CO2": {
+			          "Target": {
+			            "Entity": "mesure.prev_year_latest_CO2"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.prev_year_latest_CO2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_prev_year_latest_CO2"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_growth_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.growth_rate": {
+			          "Target": {
+			            "Entity": "mesure.growth_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.growth_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_growth_rate"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_has_mesure_growth_rate_per_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "mesure.growth_rate_per_year": {
+			          "Target": {
+			            "Entity": "mesure.growth_rate_per_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Object": {
+			              "Role": "mesure.growth_rate_per_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_have_growth_rate_per_year"
+			        }
+			      ]
+			    },
+			    "mesure_has_ranking": {
+			      "Binding": {
+			        "ConceptualEntity": "Mesure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mesure": {
+			          "Target": {
+			            "Entity": "mesure"
+			          }
+			        },
+			        "mesure.ranking": {
+			          "Target": {
+			            "Entity": "mesure.ranking"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mesure"
+			            },
+			            "Object": {
+			              "Role": "mesure.ranking"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mesures_have_ranking"
+			        }
+			      ]
+			    },
+			    "year_has_mesure_selected_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year": {
+			          "Target": {
+			            "Entity": "year"
+			          }
+			        },
+			        "mesure.selected_year": {
+			          "Target": {
+			            "Entity": "mesure.selected_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "mesure.selected_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_selected_year"
+			        }
+			      ]
+			    },
+			    "year_parameter_has_mesure_in_year_label": {
+			      "Binding": {
+			        "ConceptualEntity": "Year Parameter"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year_parameter": {
+			          "Target": {
+			            "Entity": "year_parameter"
+			          }
+			        },
+			        "mesure.in_year_label": {
+			          "Target": {
+			            "Entity": "mesure.in_year_label"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year_parameter"
+			            },
+			            "Object": {
+			              "Role": "mesure.in_year_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "year_parameters_have_in_year_label"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "year_parameter"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "mesure.in_year_label"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "year_parameters_are_in_in_year_label"
+			        }
+			      ]
+			    },
+			    "mesure_has_blank": {
+			      "Binding": {
+			        "ConceptualEntity": "Mesure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mesure": {
+			          "Target": {
+			            "Entity": "mesure"
+			          }
+			        },
+			        "mesure.blank": {
+			          "Target": {
+			            "Entity": "mesure.blank"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mesure"
+			            },
+			            "Object": {
+			              "Role": "mesure.blank"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mesures_have_blank"
+			        }
+			      ]
+			    },
+			    "year_parameter_has_year_value": {
+			      "Binding": {
+			        "ConceptualEntity": "Year Parameter"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year_parameter": {
+			          "Target": {
+			            "Entity": "year_parameter"
+			          }
+			        },
+			        "year_parameter.year_value": {
+			          "Target": {
+			            "Entity": "year_parameter.year_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year_parameter"
+			            },
+			            "Object": {
+			              "Role": "year_parameter.year_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "year_parameters_have_year_value"
+			        }
+			      ]
+			    },
+			    "year_parameter_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Year Parameter"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year_parameter": {
+			          "Target": {
+			            "Entity": "year_parameter"
+			          }
+			        },
+			        "year_parameter.year": {
+			          "Target": {
+			            "Entity": "year_parameter.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year_parameter"
+			            },
+			            "Object": {
+			              "Role": "year_parameter.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "year_parameters_have_years"
+			        }
+			      ]
+			    },
+			    "country_has_density": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "country.density": {
+			          "Target": {
+			            "Entity": "country.density"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "country.density"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_densities"
+			        }
+			      ]
+			    },
+			    "country_has_area_km": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "country.area_km": {
+			          "Target": {
+			            "Entity": "country.area_km"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "country.area_km"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_area_km"
+			        }
+			      ]
+			    },
+			    "country_has_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "country.continent": {
+			          "Target": {
+			            "Entity": "country.continent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "country.continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_continents"
+			        }
+			      ]
+			    },
+			    "country_has_flag": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "country.flag": {
+			          "Target": {
+			            "Entity": "country.flag"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "country.flag"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_flags"
+			        }
+			      ]
+			    },
+			    "country_has_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "country.country": {
+			          "Target": {
+			            "Entity": "country.country"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "country.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_countries"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Name": {
+			              "Role": "country.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_are_names_IDs_of_countries"
+			        }
+			      ]
+			    },
+			    "country_has_country_code": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "country.country_code": {
+			          "Target": {
+			            "Entity": "country.country_code"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Object": {
+			              "Role": "country.country_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_have_country_codes"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Name": {
+			              "Role": "country.country_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "country_codes_are_names_IDs_of_countries"
+			        }
+			      ]
+			    },
+			    "year_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year": {
+			          "Target": {
+			            "Entity": "year"
+			          }
+			        },
+			        "year.date": {
+			          "Target": {
+			            "Entity": "year.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "year.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_dates"
+			        }
+			      ]
+			    },
+			    "year_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year": {
+			          "Target": {
+			            "Entity": "year"
+			          }
+			        },
+			        "year.year": {
+			          "Target": {
+			            "Entity": "year.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year"
+			            },
+			            "Object": {
+			              "Role": "year.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "years_have_years"
+			        }
+			      ]
+			    },
+			    "mesure_has_colored_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "Mesure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mesure": {
+			          "Target": {
+			            "Entity": "mesure"
+			          }
+			        },
+			        "mesure.colored_continent": {
+			          "Target": {
+			            "Entity": "mesure.colored_continent"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "mesure"
+			            },
+			            "Object": {
+			              "Role": "mesure.colored_continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mesures_have_colored_continent"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_are_in_countries"
+			        }
+			      ]
+			    },
+			    "donnée_CO2_in_country_2": {
+			      "Binding": {
+			        "ConceptualEntity": "Donnée CO2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "donnée_CO2": {
+			          "Target": {
+			            "Entity": "donnée_CO2"
+			          }
+			        },
+			        "country_2": {
+			          "Target": {
+			            "Entity": "country_2"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "country_2"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "donnée_CO2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "country_2"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "donnée_CO2_are_in_country_2"
+			        }
+			      ]
+			    },
+			    "country_in_mesure_continent_for_color": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "mesure.continent_for_color": {
+			          "Target": {
+			            "Entity": "mesure.continent_for_color"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "mesure.continent_for_color"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "mesure.continent_for_color"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_are_in_continent_for_color"
+			        }
+			      ]
+			    },
+			    "country_2_in_country": {
+			      "Binding": {
+			        "ConceptualEntity": "Country2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country_2": {
+			          "Target": {
+			            "Entity": "country_2"
+			          }
+			        },
+			        "country_2.country": {
+			          "Target": {
+			            "Entity": "country_2.country"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "country_2.country"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "country_2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "country_2.country"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "country_2_are_in_countries"
+			        }
+			      ]
+			    },
+			    "country_2_in_country_code": {
+			      "Binding": {
+			        "ConceptualEntity": "Country2"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country_2": {
+			          "Target": {
+			            "Entity": "country_2"
+			          }
+			        },
+			        "country_2.country_code": {
+			          "Target": {
+			            "Entity": "country_2.country_code"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "country_2.country_code"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "country_2"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "country_2.country_code"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "country_2_are_in_country_codes"
+			        }
+			      ]
+			    },
+			    "mesure_in_continent_title": {
+			      "Binding": {
+			        "ConceptualEntity": "Mesure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mesure": {
+			          "Target": {
+			            "Entity": "mesure"
+			          }
+			        },
+			        "mesure.continent_title": {
+			          "Target": {
+			            "Entity": "mesure.continent_title"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "mesure.continent_title"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "mesure"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "mesure.continent_title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mesures_are_in_continent_title"
+			        }
+			      ]
+			    },
+			    "country_in_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "Countries"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "country": {
+			          "Target": {
+			            "Entity": "country"
+			          }
+			        },
+			        "country.continent": {
+			          "Target": {
+			            "Entity": "country.continent"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "country.continent"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "country"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "country.continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "countries_are_in_continents"
+			        }
+			      ]
+			    },
+			    "mesure_in_colored_continent": {
+			      "Binding": {
+			        "ConceptualEntity": "Mesure"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "mesure": {
+			          "Target": {
+			            "Entity": "mesure"
+			          }
+			        },
+			        "mesure.colored_continent": {
+			          "Target": {
+			            "Entity": "mesure.colored_continent"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "mesure.colored_continent"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "mesure"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "mesure.colored_continent"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "mesures_are_in_colored_continent"
+			        }
+			      ]
+			    },
+			    "year_date_date_hierarchy_has_year_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date.date_hierarchy"
+			          }
+			        },
+			        "year.date.year": {
+			          "Target": {
+			            "Entity": "year.date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "year.date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_years"
+			        }
+			      ]
+			    },
+			    "year_date_date_hierarchy_has_year_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date.date_hierarchy"
+			          }
+			        },
+			        "year.date.quarter": {
+			          "Target": {
+			            "Entity": "year.date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "year.date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_quarters"
+			        }
+			      ]
+			    },
+			    "year_date_date_hierarchy_has_year_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date.date_hierarchy"
+			          }
+			        },
+			        "year.date.month": {
+			          "Target": {
+			            "Entity": "year.date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "year.date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_months"
+			        }
+			      ]
+			    },
+			    "year_date_date_hierarchy_has_year_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Years"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "year.date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "year.date.date_hierarchy"
+			          }
+			        },
+			        "year.date.day": {
+			          "Target": {
+			            "Entity": "year.date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "year.date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "year.date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchies_have_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

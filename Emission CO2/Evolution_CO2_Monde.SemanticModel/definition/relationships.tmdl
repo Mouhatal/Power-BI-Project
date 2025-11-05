@@ -1,0 +1,17 @@
+relationship 9cd8fded-7b57-4ba0-8b62-c8c65cc2ae6a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Years.Date
+	toColumn: LocalDateTable_038a05a0-5f14-4eb8-b937-0afc1fd19b7d.Date
+
+relationship AutoDetected_a660405b-9d60-4b8e-9747-7d8849bd7845
+	fromColumn: 'Donnée CO2'.country
+	toColumn: Country2.Country
+
+relationship 64552648-09a5-ec7c-cbef-583059f1a9d7
+	fromColumn: 'Donnée CO2'.year
+	toColumn: Years.Years
+
+relationship 62ef6cfd-881a-974d-d400-a5d2e70bc4ef
+	fromColumn: 'Donnée CO2'.country
+	toColumn: Countries.Country
+

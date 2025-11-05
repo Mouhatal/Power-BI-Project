@@ -1,0 +1,26 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Countries","CountryCode","Country2","DataSource","DataSourceCO2","Donnée CO2","Mesure"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["DaxQueryView_Desktop","DevMode"]
+
+ref table DateTableTemplate_6e829827-ae2e-44ac-89c0-0430dcde6987
+ref table Years
+ref table LocalDateTable_038a05a0-5f14-4eb8-b937-0afc1fd19b7d
+ref table Countries
+ref table 'Year Parameter'
+ref table 'CO2 Parameter'
+ref table Country2
+ref table 'Donnée CO2'
+ref table Mesure
+
+ref cultureInfo en-US
+

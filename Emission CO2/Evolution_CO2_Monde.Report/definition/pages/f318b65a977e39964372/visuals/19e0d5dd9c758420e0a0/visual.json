@@ -1,0 +1,48 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "19e0d5dd9c758420e0a0",
+  "position": {
+    "x": 73.050969131371147,
+    "y": 898.66475233309416,
+    "z": 12000,
+    "height": 140.5886575735822,
+    "width": 274.28571428571428,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "CO₂ emissions are not just numbers; they are the heartbeat of our planet’s climate. How we reduce, regulate, and rethink these emissions will shape the future we pass on to the next generations."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

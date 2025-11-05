@@ -1,0 +1,16 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.3.0/schema.json",
+  "name": "1dde37bc00e292d44b45",
+  "position": {
+    "x": 1614.7094084889561,
+    "y": 207.65426100224713,
+    "z": 15000,
+    "height": 189.57156170949276,
+    "width": 189.57156170949276,
+    "tabOrder": 23000
+  },
+  "visualGroup": {
+    "displayName": "mini_map",
+    "groupMode": "ScaleMode"
+  }
+}

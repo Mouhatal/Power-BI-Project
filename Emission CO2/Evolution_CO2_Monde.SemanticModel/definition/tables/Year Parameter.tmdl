@@ -1,0 +1,29 @@
+table 'Year Parameter'
+	lineageTag: a3986a20-e895-42b0-8192-9b836d12aa0f
+
+	measure 'Year Value' = SELECTEDVALUE('Year Parameter'[Year])
+		formatString: 0
+		lineageTag: 67aa5001-2f32-4148-acd3-48de5240b26b
+
+	column Year
+		formatString: 0
+		lineageTag: 1b8bcfd2-8fc9-4491-89a8-4178eaa2a0ac
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 0
+				}
+
+		annotation SummarizationSetBy = User
+
+	partition 'Year Parameter' = calculated
+		mode: import
+		source =
+				
+				//GENERATESERIES(1960, 2023, 1)
+				GENERATESERIES(MIN('Donnée CO2'[year]),MAX('Donnée CO2'[year]),1)
+
+	annotation PBI_Id = ba241e23ae684a44af2444e39b6ddd7c
+

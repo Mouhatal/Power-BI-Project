@@ -1,0 +1,36 @@
+table SalesForcast
+	isHidden
+	lineageTag: 362f9dce-6f6c-4f67-aec6-1350f3536950
+
+	column 'Order Date'
+		isHidden
+		formatString: General Date
+		lineageTag: 37e14946-6005-4bb5-b3d4-937e5c31de63
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: SuperStore_Sales_Dataset[Order Date]
+
+		variation Variation
+			isDefault
+			relationship: 0d720a3c-1d74-4350-b5fa-7b47a93acf20
+			defaultHierarchy: LocalDateTable_198d5f3e-5002-4492-a92c-9bb96471f6c4.'Hiérarchie de dates'
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_Sales
+		isHidden
+		lineageTag: 8a57cc17-97e3-41d3-aabb-da3d6dca57a7
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [total_Sales]
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition SalesForcast = calculated
+		mode: import
+		source = SUMMARIZE('SuperStore_Sales_Dataset', SuperStore_Sales_Dataset[Order Date],"total_Sales", SUM(SuperStore_Sales_Dataset[Sales]))
+
+	annotation PBI_Id = d68746c9ffc34c0b8d685856f801a79d
+

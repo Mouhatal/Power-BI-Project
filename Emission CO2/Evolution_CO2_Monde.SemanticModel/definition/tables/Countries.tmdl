@@ -1,0 +1,79 @@
+table Countries
+	lineageTag: 17a30211-54ff-494f-89ae-012d04597b4b
+
+	column 'Country Code'
+		dataType: string
+		lineageTag: d5750439-7d76-446b-8fe6-723c5ba2230d
+		summarizeBy: none
+		sourceColumn: Country Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		lineageTag: 6b0250fa-f922-4020-8461-9e27b972da72
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Flag
+		dataType: string
+		lineageTag: 60e943cc-75b8-476f-9aac-182f15f1f29b
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: Flag
+
+		annotation SummarizationSetBy = Automatic
+
+	column Continent
+		dataType: string
+		lineageTag: 4e5f41ba-bd54-40e6-8485-039635ce9ad3
+		summarizeBy: none
+		sourceColumn: Continent
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Area km²'
+		dataType: double
+		formatString: #,0
+		lineageTag: b542c104-1b8d-4c1b-a51e-3935731ae25a
+		summarizeBy: none
+		sourceColumn: Area km²
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column Density
+		dataType: int64
+		formatString: 0
+		lineageTag: 26ea874d-c1ae-4348-8858-0b55e874894e
+		summarizeBy: none
+		sourceColumn: Density
+
+		annotation SummarizationSetBy = Automatic
+
+	column PlaceHolder = 1
+		formatString: 0
+		lineageTag: 6070a2fd-3dd9-48ed-af9f-e707de4967c5
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Countries = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataSource), null, true),
+				    Country_Sheet = Source{[Item="Country",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Country_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Row Labels", type text}, {"Country", type text}, {"Flag", type text}, {"Continent", type text}, {"Area km²", type number}, {"Density", Int64.Type}}),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed Type",{{"Row Labels", "Country Code"}})
+				in
+				    #"Renamed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

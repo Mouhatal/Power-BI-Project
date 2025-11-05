@@ -1,0 +1,17 @@
+{
+  "name": "Highrise",
+  "dataColors": [
+    "#09F220",
+    "#EBFB14",
+    "#FF1505",
+    "#BDFF8A",
+    "#F9FF87",
+    "#F1654D",
+    "#0280A3",
+    "#FFFFFF"
+  ],
+  "tableAccent": "#499195",
+  "maximum": "#499195",
+  "center": "#D9B300",
+  "minimum": "#DEEFFF"
+}

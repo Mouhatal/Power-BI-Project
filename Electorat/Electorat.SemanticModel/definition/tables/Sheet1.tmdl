@@ -1,0 +1,61 @@
+table Sheet1
+	lineageTag: c25d23cc-cc4e-4f88-bc41-3b924f5643d9
+
+	column Région
+		dataType: string
+		lineageTag: 1e520ff9-e542-47d5-862c-82fcc509a152
+		summarizeBy: none
+		sourceColumn: Région
+
+		annotation SummarizationSetBy = Automatic
+
+	column Départment
+		dataType: string
+		lineageTag: d0104787-7ac0-416d-bd45-66e9169308b9
+		summarizeBy: none
+		sourceColumn: Départment
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Centre de vote'
+		dataType: int64
+		formatString: 0
+		lineageTag: 777f94a4-c306-47c6-ae34-ae99e2c6c2dc
+		summarizeBy: sum
+		sourceColumn: Centre de vote
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Bureau de Vote'
+		dataType: int64
+		formatString: #,0
+		lineageTag: 66dc6d7f-76e9-4827-9d95-ed39d4aa065b
+		summarizeBy: sum
+		sourceColumn: Bureau de Vote
+
+		annotation SummarizationSetBy = Automatic
+
+	column Electeurs
+		dataType: int64
+		formatString: #,0
+		lineageTag: 449084c2-18d5-4f2f-b630-f181e9776258
+		summarizeBy: sum
+		sourceColumn: Electeurs
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Sheet1 = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\tmp_tall86530\Downloads\Senegal_Election_Electors_Detailed.xlsx"), null, true),
+				    #"Carte electoral_Sheet" = Source{[Item="Carte electoral",Kind="Sheet"]}[Data],
+				    #"En-têtes promus" = Table.PromoteHeaders(#"Carte electoral_Sheet", [PromoteAllScalars=true]),
+				    #"Type modifié" = Table.TransformColumnTypes(#"En-têtes promus",{{"Région", type text}, {"Départment", type text}, {"Centre de vote", Int64.Type}, {"Bureau de Vote", Int64.Type}, {"Electeurs", Int64.Type}})
+				in
+				    #"Type modifié"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

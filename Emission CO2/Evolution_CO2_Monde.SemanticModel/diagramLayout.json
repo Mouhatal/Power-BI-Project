@@ -1,0 +1,111 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 695.80828069871473,
+        "y": 260.22856787053121
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 686.57142857142856,
+            "y": 0
+          },
+          "nodeIndex": "Years",
+          "nodeLineageTag": "58d1d90a-a4c2-454e-972b-79587cc2b5d8",
+          "size": {
+            "height": 145,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Countries",
+          "nodeLineageTag": "17a30211-54ff-494f-89ae-012d04597b4b",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 6
+        },
+        {
+          "location": {
+            "x": 965.9078341013826,
+            "y": 5.8294930875576014
+          },
+          "nodeIndex": "Year Parameter",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 990.59907834101386,
+            "y": 272.13392857142861
+          },
+          "nodeIndex": "Country2",
+          "nodeLineageTag": "3c0268e2-eb12-47e3-b952-9bc3bc46168b",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 7
+        },
+        {
+          "location": {
+            "x": 689.79719944263934,
+            "y": 642.34131963351911
+          },
+          "nodeIndex": "Donnée CO2",
+          "nodeLineageTag": "9f8f26a0-b2d5-48ee-b837-4b389c4cb221",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 1533.9078341013826,
+            "y": 419.17065981675955
+          },
+          "nodeIndex": "Mesure",
+          "nodeLineageTag": "df602da2-a6f6-4813-9dbd-4466d3e569cf",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1249.9078341013826,
+            "y": 0
+          },
+          "nodeIndex": "CO2 Parameter",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 85.7707509881423,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

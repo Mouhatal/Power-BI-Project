@@ -1,0 +1,15 @@
+relationship 44cd2182-cba5-43d0-bf0a-fdcae2cdff29
+	joinOnDateBehavior: datePartOnly
+	fromColumn: SuperStore_Sales_Dataset.'Ship Date'
+	toColumn: LocalDateTable_1473f615-5625-4398-9083-7f031de7807c.Date
+
+relationship be1d036e-fa6e-b6d5-8fb4-d3af52182cb0
+	crossFilteringBehavior: bothDirections
+	fromColumn: SuperStore_Sales_Dataset.'Order Date'
+	toColumn: SalesForcast.'Order Date'
+
+relationship 0d720a3c-1d74-4350-b5fa-7b47a93acf20
+	joinOnDateBehavior: datePartOnly
+	fromColumn: SalesForcast.'Order Date'
+	toColumn: LocalDateTable_198d5f3e-5002-4492-a92c-9bb96471f6c4.Date
+

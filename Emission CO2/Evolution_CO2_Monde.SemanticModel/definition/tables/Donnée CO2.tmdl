@@ -1,0 +1,299 @@
+table 'Donnée CO2'
+	lineageTag: 9f8f26a0-b2d5-48ee-b837-4b389c4cb221
+
+	column country
+		dataType: string
+		lineageTag: 44dcd92d-40e8-46c0-86c8-6972e5331a22
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column iso_code
+		dataType: string
+		lineageTag: 645bd755-1fff-4841-ba75-f3536562d430
+		summarizeBy: none
+		sourceColumn: iso_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column year
+		dataType: int64
+		formatString: 0
+		lineageTag: aa6df92b-dfd5-459e-8f3f-1a3ef4bec0f4
+		summarizeBy: none
+		sourceColumn: year
+
+		annotation SummarizationSetBy = Automatic
+
+	column population
+		dataType: double
+		lineageTag: c4fd6a5c-5c16-4b97-8b61-fefdfc0eb52a
+		summarizeBy: sum
+		sourceColumn: population
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gdp
+		dataType: double
+		lineageTag: 26fe70f3-1d66-4f40-a51e-446305db78a6
+		summarizeBy: sum
+		sourceColumn: gdp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column primary_energy_consumption
+		dataType: double
+		lineageTag: f956d7cf-eb8f-4c96-bc3f-d3623abc9f28
+		summarizeBy: sum
+		sourceColumn: primary_energy_consumption
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column co2
+		dataType: double
+		lineageTag: c3972d71-e3a8-4e02-9c7d-86739f1a22c0
+		summarizeBy: sum
+		sourceColumn: co2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column co2_including_luc
+		dataType: double
+		lineageTag: e6458b47-66a3-41e5-8088-f92bc76e127c
+		summarizeBy: sum
+		sourceColumn: co2_including_luc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column co2_per_capita
+		dataType: double
+		lineageTag: 694f3650-0484-402b-bf61-c80742173729
+		summarizeBy: sum
+		sourceColumn: co2_per_capita
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column co2_per_gdp
+		dataType: double
+		lineageTag: 0c4347f7-8fcc-4c6c-a0db-cf9a6d6e934a
+		summarizeBy: sum
+		sourceColumn: co2_per_gdp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column co2_per_unit_energy
+		dataType: double
+		lineageTag: 464a34f5-f708-4a67-801b-e938e1a3612b
+		summarizeBy: sum
+		sourceColumn: co2_per_unit_energy
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column co2_including_luc_per_capita
+		dataType: double
+		lineageTag: e904e4fb-46b1-4991-a645-aa4f5b85620c
+		summarizeBy: sum
+		sourceColumn: co2_including_luc_per_capita
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column co2_including_luc_per_gdp
+		dataType: double
+		lineageTag: 9e2623d8-e2f7-4b74-838d-080a42cb56d6
+		summarizeBy: sum
+		sourceColumn: co2_including_luc_per_gdp
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column co2_including_luc_per_unit_energy
+		dataType: double
+		lineageTag: a3c77069-4a98-41cd-b2fc-27ac6bc6fc34
+		summarizeBy: sum
+		sourceColumn: co2_including_luc_per_unit_energy
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column coal_co2
+		dataType: double
+		lineageTag: dec3bbed-2fbe-47b4-badd-6ea48bc1cf70
+		summarizeBy: sum
+		sourceColumn: coal_co2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column oil_co2
+		dataType: double
+		lineageTag: 27e8a776-1767-47ab-aaab-e1db4d06df5d
+		summarizeBy: sum
+		sourceColumn: oil_co2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column gas_co2
+		dataType: double
+		lineageTag: 322d0997-a59a-4b48-9981-686ca0f1866b
+		summarizeBy: sum
+		sourceColumn: gas_co2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cement_co2
+		dataType: double
+		lineageTag: 077a75e6-53e2-410d-b58a-704c87a754e5
+		summarizeBy: sum
+		sourceColumn: cement_co2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column flaring_co2
+		dataType: double
+		lineageTag: da3a2cc9-65aa-4df0-a114-70e40b3db2dc
+		summarizeBy: sum
+		sourceColumn: flaring_co2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column land_use_change_co2
+		dataType: double
+		lineageTag: 1727f77d-9b73-4096-8891-a310d0be0eab
+		summarizeBy: sum
+		sourceColumn: land_use_change_co2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column share_global_co2
+		dataType: double
+		lineageTag: 754f039d-0310-4833-a9a7-f6cc8c644d4b
+		summarizeBy: sum
+		sourceColumn: share_global_co2
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column share_global_co2_including_luc
+		dataType: double
+		lineageTag: e9b1a6ba-b66a-4113-8d3c-76c323997387
+		summarizeBy: sum
+		sourceColumn: share_global_co2_including_luc
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition 'Donnée CO2' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents(DataSourceCO2), null, true),
+				    Data_Sheet = Source{[Item="Data",Kind="Sheet"]}[Data],
+				    ColonnesNoms = Table.PromoteHeaders(Data_Sheet, [PromoteAllScalars=true]),
+				
+				    ColonnesFiltrees = Table.SelectColumns(ColonnesNoms, {
+				        "country",
+				        "iso_code",
+				        "year",
+				        "population",
+				        "gdp",
+				        "primary_energy_consumption",
+				
+				        // Émissions CO2 totales
+				        "co2",
+				        "co2_including_luc",
+				
+				        // Émissions CO2 par habitant, PIB, énergie
+				        "co2_per_capita",
+				        "co2_per_gdp",
+				        "co2_per_unit_energy",
+				        "co2_including_luc_per_capita",
+				        "co2_including_luc_per_gdp",
+				        "co2_including_luc_per_unit_energy",
+				
+				        // Émissions par source
+				        "coal_co2",
+				        "oil_co2",
+				        "gas_co2",
+				        "cement_co2",
+				        "flaring_co2",
+				        "land_use_change_co2",
+				
+				        // Part dans les émissions globales
+				        "share_global_co2",
+				        "share_global_co2_including_luc"
+				    }),
+				
+				    // Suppression des lignes sans pays ou année
+				    SupprimerLignesIncompletes = Table.SelectRows(ColonnesFiltrees, each ([country] <> null and [year] <> null and [co2] <> null)),
+				
+				    // Changement de types
+				    ColonnesTypées = Table.TransformColumnTypes(SupprimerLignesIncompletes, {
+				        {"country", type text},
+				        {"iso_code", type text},
+				        {"year", Int64.Type},
+				        {"population", type number},
+				        {"gdp", type number},
+				        {"primary_energy_consumption", type number},
+				
+				        {"co2", type number},
+				        {"co2_including_luc", type number},
+				        {"co2_per_capita", type number},
+				        {"co2_per_gdp", type number},
+				        {"co2_per_unit_energy", type number},
+				        {"co2_including_luc_per_capita", type number},
+				        {"co2_including_luc_per_gdp", type number},
+				        {"co2_including_luc_per_unit_energy", type number},
+				
+				        {"coal_co2", type number},
+				        {"oil_co2", type number},
+				        {"gas_co2", type number},
+				        {"cement_co2", type number},
+				        {"flaring_co2", type number},
+				        {"land_use_change_co2", type number},
+				
+				        {"share_global_co2", type number},
+				        {"share_global_co2_including_luc", type number}
+				    }),
+				    #"Type modifié" = Table.TransformColumnTypes(ColonnesTypées,{{"co2", type number}}),
+				    #"Lignes filtrées" = Table.SelectRows(#"Type modifié", each ([country] <> "Africa" and [country] <> "Africa (GCP)" and [country] <> "Asia" and [country] <> "Asia (excl. China and India)" and [country] <> "Asia (GCP)" and [country] <> "Central America (GCP)" and [country] <> "Europe" and [country] <> "Europe (excl. EU-27)" and [country] <> "Europe (excl. EU-28)" and [country] <> "Europe (GCP)" and [country] <> "European Union (27)" and [country] <> "European Union (28)" and [country] <> "High-income countries" and [country] <> "International aviation" and [country] <> "International shipping" and [country] <> "Kuwaiti Oil Fires (GCP)" and [country] <> "Low-income countries" and [country] <> "Lower-middle-income countries" and [country] <> "Middle East (GCP)" and [country] <> "Non-OECD (GCP)" and [country] <> "North America" and [country] <> "North America (excl. USA)" and [country] <> "North America (GCP)" and [country] <> "Oceania" and [country] <> "Oceania (GCP)" and [country] <> "OECD (GCP)" and [country] <> "Ryukyu Islands (GCP)" and [country] <> "South America" and [country] <> "South America (GCP)" and [country] <> "Upper-middle-income countries" and [country] <> "World"))
+				in
+				    #"Lignes filtrées"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

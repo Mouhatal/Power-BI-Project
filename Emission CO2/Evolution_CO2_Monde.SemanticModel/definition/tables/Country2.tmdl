@@ -1,0 +1,43 @@
+table Country2
+	lineageTag: 3c0268e2-eb12-47e3-b952-9bc3bc46168b
+
+	column 'Country Code'
+		dataType: string
+		lineageTag: 64512f63-3569-46a4-af19-ac74f6d58ef6
+		summarizeBy: none
+		sourceColumn: Country Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		lineageTag: b3caf5f4-68aa-4fe7-bd1f-eec458355110
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Value
+		dataType: int64
+		formatString: 0
+		lineageTag: 4511cfdc-ac70-4b90-8ccc-0beec68457be
+		summarizeBy: none
+		sourceColumn: Value
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Country2 = m
+		mode: import
+		source =
+				let
+				    Source = Countries,
+				    #"Removed Columns" = Table.RemoveColumns(Source,{"Flag", "Continent", "Area km²", "Density"}),
+				    #"Added Custom" = Table.AddColumn(#"Removed Columns", "Value", each 1),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Added Custom",{{"Value", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

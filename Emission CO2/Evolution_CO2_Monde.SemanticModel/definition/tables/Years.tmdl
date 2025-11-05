@@ -1,0 +1,44 @@
+table Years
+	lineageTag: 58d1d90a-a4c2-454e-972b-79587cc2b5d8
+
+	column Years
+		formatString: 0
+		lineageTag: f9e75d0b-7f2b-4a32-8ba1-c0ddb02ea875
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date = DATE(Years[Years],12,1)
+		formatString: yyyy
+		lineageTag: 3ade57f1-a8a1-49df-93d5-b450d39a6262
+		summarizeBy: none
+
+		variation Variation
+			isDefault
+			relationship: 9cd8fded-7b57-4ba0-8b62-c8c65cc2ae6a
+			defaultHierarchy: LocalDateTable_038a05a0-5f14-4eb8-b937-0afc1fd19b7d.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column 'Placeholder value' = ```
+			1 
+			```
+		formatString: 0
+		lineageTag: 52c1d590-e82e-4ba9-870a-52ac73451d0d
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Years = calculated
+		mode: import
+		source =
+				GENERATESERIES(MIN('Donnée CO2'[year]),MAX('Donnée CO2'[year]),1)
+				// GENERATESERIES(1960, 2023, 1)
+
+	annotation PBI_Id = f8bcf7248849465b95f6d7d980b7e712
+

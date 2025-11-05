@@ -1,0 +1,95 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
+  "name": "4079ac6fa553c2eb1935",
+  "displayName": "Model  3",
+  "displayOption": "FitToWidth",
+  "height": 720,
+  "width": 1280,
+  "pageBinding": {
+    "name": "9475b62b59585d8bdf13",
+    "type": "Default",
+    "parameters": [],
+    "acceptsFilterContext": "None"
+  },
+  "objects": {
+    "background": [
+      {
+        "properties": {
+          "image": {
+            "image": {
+              "name": {
+                "expr": {
+                  "Literal": {
+                    "Value": "''"
+                  }
+                }
+              },
+              "url": {
+                "expr": {
+                  "Literal": {
+                    "Value": "''"
+                  }
+                }
+              }
+            }
+          },
+          "color": {
+            "solid": {
+              "color": {
+                "expr": {
+                  "Literal": {
+                    "Value": "'#FFFFFF'"
+                  }
+                }
+              }
+            }
+          },
+          "transparency": {
+            "expr": {
+              "Literal": {
+                "Value": "0D"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "visualInteractions": [
+    {
+      "source": "81898a3aad95138d46cf",
+      "target": "a8823f9cdcb5d86b5017",
+      "type": "DataFilter"
+    },
+    {
+      "source": "81898a3aad95138d46cf",
+      "target": "98fffae20a4f55a1a82d",
+      "type": "DataFilter"
+    },
+    {
+      "source": "81898a3aad95138d46cf",
+      "target": "d65bacbf4c68d5aebde3",
+      "type": "DataFilter"
+    },
+    {
+      "source": "98fffae20a4f55a1a82d",
+      "target": "81898a3aad95138d46cf",
+      "type": "NoFilter"
+    },
+    {
+      "source": "98fffae20a4f55a1a82d",
+      "target": "a8823f9cdcb5d86b5017",
+      "type": "NoFilter"
+    },
+    {
+      "source": "98fffae20a4f55a1a82d",
+      "target": "d65bacbf4c68d5aebde3",
+      "type": "NoFilter"
+    },
+    {
+      "source": "d65bacbf4c68d5aebde3",
+      "target": "98fffae20a4f55a1a82d",
+      "type": "DataFilter"
+    }
+  ]
+}

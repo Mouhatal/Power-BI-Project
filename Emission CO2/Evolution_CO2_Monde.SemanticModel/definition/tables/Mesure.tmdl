@@ -1,0 +1,211 @@
+table Mesure
+	lineageTag: df602da2-a6f6-4813-9dbd-4466d3e569cf
+
+	measure 'Total CO2' = SUM('Donnée CO2'[co2])
+		formatString: #,0
+		lineageTag: 76ab2ded-02fe-4659-a21e-a265b67a3255
+
+	measure 'Selected Year' = ```
+			
+			    MAX(Years[Years])
+			```
+		formatString: 0
+		lineageTag: 508cddf9-8036-4f21-b726-3adef8219fc3
+
+	measure 'Latest CO2' = ```
+			
+			VAR _maxYear2 = SELECTEDVALUE('Year Parameter'[Year])
+			
+			   RETURN   
+			    CALCULATE(
+			        [Total CO2],
+			        'Donnée CO2'[year] = _maxYear2
+			    )
+			```
+		lineageTag: 7ae47e55-6d4f-43c9-be01-2210b9ea98f3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Ranking =
+			
+			    RANKX(
+							ALLSELECTED(Countries),
+							[Latest CO2],
+			                ,
+			                DESC
+			                )
+		formatString: 0
+		lineageTag: 7d707c64-c34c-4afa-8631-a7effbd1245f
+
+	measure 'in Year label' = "IN " & MAX('Year Parameter'[Year])
+		lineageTag: 8658c303-1b37-4dd9-8941-6c1e0bff3ad7
+
+	measure Prev_Year_total_CO2 = ```
+			
+			
+			VAR _PrevYear = SELECTEDVALUE(Years[Years]) -1
+			
+			   RETURN 
+			    
+			    CALCULATE(
+			        [Total CO2],
+			        Years[Years] = _PrevYear
+			    )
+			```
+		formatString: 0
+		lineageTag: 3767c22f-1b00-4b09-9a9f-fd9689c14077
+
+	measure Prev_Year_latest_CO2 =
+			
+			
+			VAR _PrevYear = SELECTEDVALUE('Year Parameter'[Year]) -1
+			
+			   RETURN
+			    CALCULATE(
+			        [Latest CO2],
+			        'Year Parameter'[Year] = _PrevYear
+			    )
+		formatString: #,0
+		lineageTag: 73788aeb-171a-4aad-8e5b-8711c2f6c579
+
+	measure 'Growth rate per year' = ```
+			
+			
+			    DIVIDE(
+			        ([Total CO2] - [Prev_Year_total_CO2]), 
+			        [Prev_Year_total_CO2],
+			        0
+			        )
+			      
+			```
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: fedeee5e-a41a-4ce7-8322-30282beb58d5
+
+	measure 'Growth rate' = ```
+			
+			
+			    DIVIDE(
+			        ([Latest CO2] - [Prev_Year_latest_CO2]), 
+			        [Prev_Year_latest_CO2],
+			        0
+			        )
+			      
+			```
+		lineageTag: 18f1bef1-e036-44cf-b797-3f47a37bfa12
+
+		formatStringDefinition = "+##0.00%  🡅; -##0.00%  🡇; 0.00% "
+
+	measure 'Continent Title' = ```
+			
+			    SWITCH(
+			        TRUE(),
+			        MAX('CO2 Parameter'[Co2 Parameter]) = "CO2", "CO2 emission Trend by Continent",
+			        MAX('CO2 Parameter'[Co2 Parameter]) = "Growth %", "CO2 emission Groiwth Rate by Continent"
+			    )
+			```
+		lineageTag: 7a03c3c9-4a87-45fc-9cbd-1989bd3f7d70
+
+	measure 'Continent for color' = MAX(Countries[Continent])
+		lineageTag: 72249eb5-4993-4974-bc5c-410414a88fd1
+
+	measure 'CO2 by km2' = ```
+			
+			    DIVIDE(
+			        [Latest CO2], 
+			        SUM(Countries[Area km²]),
+			        0
+			        )
+			```
+		lineageTag: 5107849c-d0a4-41cd-8948-178f54630a7c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Colored Continent' = ```
+			
+			    SWITCH(
+			        TRUE(),
+			        MAX(Countries[continent]) = "North America", "#C2272D",
+			       MAX(Countries[continent]) = "South America", "#3AB54A",
+			        MAX(Countries[continent]) = "Europe", "#2AABE2",
+			        MAX(Countries[continent]) = "Africa", "#F15A25",
+			        MAX(Countries[continent]) = "Asia", "#FBB03B",
+			        MAX(Countries[continent]) = "Oceania", "#2E3192"
+			    )
+			
+			```
+		lineageTag: d5a56841-2eaa-4b9e-9483-b27acb014b6f
+
+	measure Blank = ""
+		lineageTag: cdc4018f-38da-41b8-bf30-e3e840661fb8
+
+	measure 'Total Population' = ```
+			SUM('Donnée CO2'[population]) 
+			```
+		lineageTag: a5a794d3-509a-4706-82fa-cdc65d31eaea
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Latest Population' = ```
+			
+			VAR _maxYear2 = SELECTEDVALUE('Year Parameter'[Year])
+			
+			   RETURN   
+			    CALCULATE(
+			        [Total Population],
+			        'Donnée CO2'[year] = _maxYear2
+			    )
+			```
+		lineageTag: cfb3ff89-1b01-4ddc-a1f3-8bb30ee2e636
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Co2_per_Pop = DIVIDE([Total CO2],[Total Population])
+		formatString: 0
+		lineageTag: 656447fb-c42f-451e-a171-c3b2fe2ca347
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure Interpretation_CO2_Growth = ```
+			
+			VAR Growth = [Growth rate]
+			VAR CurrentYear = SELECTEDVALUE('Year Parameter'[Year])
+			VAR PreviousYears = SELECTEDVALUE('Year Parameter'[Year]) -1 
+			RETURN
+			IF(
+			    ISBLANK(Growth),
+			    BLANK(),
+			    IF(
+			        Growth > 0,
+			        "CO₂ emissions increased by " & FORMAT(Growth, "0.00%") & " from " & PreviousYears & " to " & CurrentYear & ".",
+			        "CO₂ emissions decreased by " & FORMAT(ABS(Growth), "0.00%") & " from " & PreviousYears & " to " & CurrentYear & "."
+			    )
+			)
+			
+			```
+		lineageTag: a2c015e2-f382-48db-98d6-84e61b55a8b3
+
+	measure CO2_Growth_Color = ```
+			
+			VAR Growth = [Growth rate]
+			RETURN
+			IF(
+			    ISBLANK(Growth),
+			    BLANK(),
+			    IF(Growth > 0, "#D7191C", "#1A9641")
+			)
+			
+			```
+		lineageTag: 4b789b20-704c-4ef9-8452-123b12deb17e
+
+	partition Mesure = m
+		mode: import
+		source =
+				let
+				    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("i44FAA==", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#"Colonne 1" = _t]),
+				    #"Type modifié" = Table.TransformColumnTypes(Source,{{"Colonne 1", type text}}),
+				    #"Colonnes supprimées" = Table.RemoveColumns(#"Type modifié",{"Colonne 1"})
+				in
+				    #"Colonnes supprimées"
+
+	annotation PBI_ResultType = Table
+

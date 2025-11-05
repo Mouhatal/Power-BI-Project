@@ -1,0 +1,48 @@
+table 'CO2 Parameter'
+	lineageTag: 6357def6-5251-416e-960d-ac0d78de74d1
+
+	column 'Co2 Parameter'
+		lineageTag: 1f563daa-ecc5-4182-b60e-10e7b5ea385c
+		summarizeBy: none
+		sourceColumn: [Value1]
+		sortByColumn: 'Pop Parameter Order'
+
+		relatedColumnDetails
+			groupByColumn: 'Pop Parameter Fields'
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Pop Parameter Fields'
+		isHidden
+		lineageTag: baddec8a-8842-4007-8ebf-4de06648f61d
+		summarizeBy: none
+		sourceColumn: [Value2]
+		sortByColumn: 'Pop Parameter Order'
+
+		extendedProperty ParameterMetadata =
+				{
+				  "version": 3,
+				  "kind": 2
+				}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Pop Parameter Order'
+		isHidden
+		formatString: 0
+		lineageTag: f3342357-0bac-4ff6-84b7-999eefc52cd5
+		summarizeBy: sum
+		sourceColumn: [Value3]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'CO2 Parameter' = calculated
+		mode: import
+		source =
+				{
+				    ("CO2", NAMEOF(Mesure[Total CO2]), 0),
+				    ("Growth %", NAMEOF(Mesure[Growth rate per year]), 1)
+				}
+
+	annotation PBI_Id = 6235f810562643ce8ab8c207ee25b2d3
+

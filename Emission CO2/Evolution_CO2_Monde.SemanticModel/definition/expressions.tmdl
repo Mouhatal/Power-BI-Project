@@ -1,0 +1,29 @@
+expression CountryCode =
+		let
+		    Source = Excel.Workbook(File.Contents("C:\Shared\Power BI\Freelance\Template 5\Data\New Data\Country.xlsx"), null, true),
+		    Country_Sheet = Source{[Item="Country",Kind="Sheet"]}[Data],
+		    #"Promoted Headers" = Table.PromoteHeaders(Country_Sheet, [PromoteAllScalars=true]),
+		    #"Removed Other Columns" = Table.SelectColumns(#"Promoted Headers",{"Row Labels"}),
+		    #"Renamed Columns" = Table.RenameColumns(#"Removed Other Columns",{{"Row Labels", "Country Code"}})
+		in
+		    #"Renamed Columns"
+	lineageTag: 4de5cfab-0152-48cd-a57c-69dc04be20a1
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
+expression DataSource = "D:\DOC_SONA_BACKUP\PBI TEMPLATE\mara\World Stats Template\Data\Population Dataset.xlsx" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: ed93fa48-7c8e-4f38-bfbe-7c7f1c5c63df
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+
+expression DataSourceCO2 = "C:\Users\T15\Documents\Concours_Data_Power_BI\owid-co2-data.xlsx" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 115ceec5-a027-47ab-8e4f-643052c5ce97
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

@@ -1,0 +1,24 @@
+table Table
+	isHidden
+	lineageTag: 334e9cbe-5df1-48df-a755-6c1bff569f34
+
+	measure Mesure = ISFILTERED('Table')
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		isHidden
+		lineageTag: 6a6c72b9-9b67-43b3-acd8-294335578143
+
+	column Value
+		isHidden
+		lineageTag: 13ff3062-7f1e-484d-9ad1-c392ac5f0660
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Table = calculated
+		mode: import
+		source = {"on/off"}
+
+	annotation PBI_Id = f75d852d6c00467d8e154a49347ca453
+

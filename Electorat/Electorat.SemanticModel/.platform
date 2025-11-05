@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Electorat"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "9abdc409-df9c-458a-83b0-9422bf274814"
+  }
+}

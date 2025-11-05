@@ -1,0 +1,60 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "SuperStore_Sales_Dataset",
+          "nodeLineageTag": "28ba39d3-ac27-4f8b-8ba3-25d3e01d53e5",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 363,
+            "y": 67
+          },
+          "nodeIndex": "SalesForcast",
+          "nodeLineageTag": "362f9dce-6f6c-4f67-aec6-1350f3536950",
+          "size": {
+            "height": 200,
+            "width": 284
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 697,
+            "y": 50
+          },
+          "nodeIndex": "Table",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Toutes les tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Toutes les tables",
+  "defaultDiagram": "Toutes les tables"
+}

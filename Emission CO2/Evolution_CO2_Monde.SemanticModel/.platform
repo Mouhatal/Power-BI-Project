@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Evolution_CO2_Monde"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "7de98eb1-ae9a-4925-b028-74e5a6c3ded1"
+  }
+}

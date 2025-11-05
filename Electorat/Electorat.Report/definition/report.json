@@ -1,0 +1,104 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.0.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU06",
+      "reportVersionAtImport": {
+        "visual": "1.8.92",
+        "report": "2.0.92",
+        "page": "1.3.92"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Highrise8465918510323203.json",
+      "reportVersionAtImport": {
+        "visual": "1.8.92",
+        "report": "2.0.92",
+        "page": "1.3.92"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU06",
+          "path": "BaseThemes/CY24SU06.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "sengal_map_departeme_json_2693995415340871.json",
+          "path": "sengal_map_departeme_json_2693995415340871.json",
+          "type": "ShapeMap"
+        },
+        {
+          "name": "Highrise8465918510323203.json",
+          "path": "Highrise8465918510323203.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "t_l_chargement-removebg-previe7453590863384143.png",
+          "path": "t_l_chargement-removebg-previe7453590863384143.png",
+          "type": "Image"
+        },
+        {
+          "name": "t_l_chargement_(2)061417387722463745.jfif",
+          "path": "t_l_chargement_(2)061417387722463745.jfif",
+          "type": "Image"
+        },
+        {
+          "name": "t_l_chargement_(1)4477025117560023.jfif",
+          "path": "t_l_chargement_(1)4477025117560023.jfif",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "filterPaneHiddenInEditMode": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

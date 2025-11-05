@@ -1,0 +1,14 @@
+EVALUATE
+	// DISTINCT('Donnée CO2'[country])
+	// DISTINCT(Countries[Country])
+	// ADDCOLUMNS(
+	// 	UNION(
+	// 		SELECTCOLUMNS('Donnée CO2',"Country", 'Donnée CO2'[country], "from CO2", TRUE(),"from base", FALSE()),
+	// 		SELECTCOLUMNS('Countries',"Country", 'Countries'[Country], "from CO2", FALSE(),"from base", TRUE())
+	// 		),
+	// 		"INBOTH", [from CO2]&&[from base]
+	// )
+	EXCEPT(SELECTCOLUMNS('Donnée CO2',"country",'Donnée CO2'[country]), SELECTCOLUMNS(Countries,"country", Countries[Country]))
+
+
+

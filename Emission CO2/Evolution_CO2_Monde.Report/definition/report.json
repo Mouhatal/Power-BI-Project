@@ -1,0 +1,154 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.0.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU06",
+      "reportVersionAtImport": {
+        "visual": "1.8.92",
+        "report": "2.0.92",
+        "page": "1.3.92"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "Custom7076642095997037.json",
+      "reportVersionAtImport": {
+        "visual": "1.8.93",
+        "report": "2.0.93",
+        "page": "1.3.93"
+      },
+      "type": "RegisteredResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "textSearchSlicerF85E2E78BE4A4D7D9F99ED75B5D71C85"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "CY24SU06",
+          "path": "BaseThemes/CY24SU06.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "World_Countries_-_Copy6633716178496545.JSON",
+          "path": "World_Countries_-_Copy6633716178496545.JSON",
+          "type": "ShapeMap"
+        },
+        {
+          "name": "Custom7076642095997037.json",
+          "path": "Custom7076642095997037.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "World_Map_green5600984643565969.png",
+          "path": "World_Map_green5600984643565969.png",
+          "type": "Image"
+        },
+        {
+          "name": "environment_green013212836054949939.png",
+          "path": "environment_green013212836054949939.png",
+          "type": "Image"
+        },
+        {
+          "name": "helth_green8007757112029907.png",
+          "path": "helth_green8007757112029907.png",
+          "type": "Image"
+        },
+        {
+          "name": "population_purple2991467741563969.png",
+          "path": "population_purple2991467741563969.png",
+          "type": "Image"
+        },
+        {
+          "name": "environment_purple5317165320601747.png",
+          "path": "environment_purple5317165320601747.png",
+          "type": "Image"
+        },
+        {
+          "name": "health_purple502445575498208.png",
+          "path": "health_purple502445575498208.png",
+          "type": "Image"
+        },
+        {
+          "name": "Environment3004556372807907.svg",
+          "path": "Environment3004556372807907.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Health4845962969972246.svg",
+          "path": "Health4845962969972246.svg",
+          "type": "Image"
+        },
+        {
+          "name": "Environment_(1)9322425005967221.png",
+          "path": "Environment_(1)9322425005967221.png",
+          "type": "Image"
+        },
+        {
+          "name": "icons8-co2-10034343100519639513.png",
+          "path": "icons8-co2-10034343100519639513.png",
+          "type": "Image"
+        },
+        {
+          "name": "icons8-croissance-et-drapeau-615826863472403996.png",
+          "path": "icons8-croissance-et-drapeau-615826863472403996.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "filterPaneHiddenInEditMode": true,
+    "useDefaultAggregateDisplayName": true
+  },
+  "slowDataSourceSettings": {
+    "isCrossHighlightingDisabled": false,
+    "isSlicerSelectionsButtonEnabled": false,
+    "isFilterSelectionsButtonEnabled": false,
+    "isFieldWellButtonEnabled": false,
+    "isApplyAllButtonEnabled": false
+  }
+}
