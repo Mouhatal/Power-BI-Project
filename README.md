@@ -22,9 +22,9 @@
 
 | Projet | Capture d’écran |
 |--------|----------------|
-| **Electorat** | ![Dashboard Electorat]([https://drive.google.com/file/d/1wDJ-YCT--9jJLEW1G8bG-o7gTu_rsNbj/view?usp=sharing]) |
-| **Emission CO2** | ![Dashboard CO2]([https://drive.google.com/file/d/1ZgnzvdYgidofYssQ9kt9ny27UweNlXAX/view?usp=sharing]) |
-| **Sales Dashboard** | ![Dashboard Sales]([https://drive.google.com/file/d/1wDJ-YCT--9jJLEW1G8bG-o7gTu_rsNbj/view?usp=sharing]) |
+| **Electorat** | ![Dashboard Electorat](https://drive.google.com/file/d/1wDJ-YCT--9jJLEW1G8bG-o7gTu_rsNbj/view?usp=sharing) |
+| **Emission CO2** | ![Dashboard CO2](https://drive.google.com/file/d/1ZgnzvdYgidofYssQ9kt9ny27UweNlXAX/view?usp=sharing) |
+| **Sales Dashboard** | ![Dashboard Sales](https://drive.google.com/file/d/1wDJ-YCT--9jJLEW1G8bG-o7gTu_rsNbj/view?usp=sharing) |
 
 
 ---
