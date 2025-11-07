@@ -21,13 +21,10 @@
 ## 🖼️ Aperçus des tableaux de bord
 - **Electorat**
 <img src="./img/Electorat.png">
-
-| Projet | Capture d’écran |
-|--------|----------------|
-| **Electorat** | ![Dashboard Electorat](https://drive.google.com/file/d/1wDJ-YCT--9jJLEW1G8bG-o7gTu_rsNbj/view) |
-| **Emission CO2** | ![Dashboard CO2](https://drive.google.com/file/d/1ZgnzvdYgidofYssQ9kt9ny27UweNlXAX/view) |
-| **Sales Dashboard** | ![Dashboard Sales](https://drive.google.com/file/d/1wDJ-YCT--9jJLEW1G8bG-o7gTu_rsNbj/view) |
-
+- **Sales Dasgboard**
+<img src="./img/Sales.png">
+- **Emission CO2**
+<img src="./img/Electorat.png">
 
 ---
 
