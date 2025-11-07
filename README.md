@@ -19,6 +19,8 @@
 ---
 
 ## 🖼️ Aperçus des tableaux de bord
+- **Electorat**
+<img src="./img/Electorat.png">
 
 | Projet | Capture d’écran |
 |--------|----------------|
